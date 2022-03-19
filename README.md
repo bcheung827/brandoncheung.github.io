@@ -1,7 +1,7 @@
 # brandoncheung.github.io
-#My Personal Portolio
+# My Personal Portolio
 
-##Project Description
+## Project Description
 
 **About Me**
 This section provides an introduction of where I am from, a little bit about my background and previous experiences, and some of my hobbies.
