@@ -14,3 +14,7 @@ This section provides current and upcoming projects that I have been working on.
 
 **Contact**
 This section provides some links to get more information about me.
+
+**Technologies Used**
+-html
+-css
