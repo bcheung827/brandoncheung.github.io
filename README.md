@@ -1,5 +1,6 @@
 # brandoncheung.github.io
 # My Personal Portolio
+[Portfolio Link](https://bcheung827.github.io/brandoncheung.github.io/)
 
 ## Project Description
 

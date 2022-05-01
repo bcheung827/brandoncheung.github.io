@@ -1,41 +1,59 @@
- * {
+:root {
+  --silver: #e5e5e5;
+  --skyblue: #00d0ff;
+
+}
+
+* {
   font-family: sans-serif;
-  background-color: silver;
+  background-color: var(--silver);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 .header {
-  position:static;
+  position: static;
   border-width: 50px;
   border-style: solid;
-  border-color: skyblue;
-  background-color: skyblue;
+  border-color: var(--skyblue);
+  background-color: var(--skyblue);
 }
 
-.header h1 { 
+.header h1 {
   display: inline-block;
   font-size: 200%;
   margin: 2% 5%;
 }
 
-h1{
-  font-family: fantasy ;
+h1 {
+  font-family: fantasy;
   font-style: italic;
-  background-color: skyblue;
+  background-color: var(--skyblue);
 }
 
-.header ul li{
+.header ul li {
   list-style-type: none;
   margin-right: 20px;
   float: right;
- 
 }
 
 .header nav ul li a {
   display: inline-block;
   font-size: 20px;
+  background-color: var(--skyblue);
+}
+
+#today {
+  margin-left: 60px;
+}
+
+#profile {
+  width: 300px;
+  height: 375px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button-link:hover {
@@ -49,38 +67,57 @@ h1{
 }
 
 img {
-  width: 300px;
-  height: 400px;
-  margin: 20px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  width: 500px;
+  height: 300px;
+  margin: 50px;
   border-style: solid;
-  border-color: #000
+  border-color: #000;
+
 }
 
-.content{ 
-  background-color: silver;
+.content {
+  background-color: var(--silver);
 }
 
 h2 {
-  background-color: skyblue;
+  background-color: var(--skyblue);
 }
 
 .firstsection {
   margin: 20px;
   padding: 50px;
-  border: 2px; color: #000;
+  border: 2px;
+  color: #000;
   border-style: solid;
-  background-color: skyblue;
+  background-color: var(--skyblue);
+}
+
+.secondsection {
+  margin: 20px;
+  padding: 50px;
+  border: 2px;
+  color: #000;
+  border-style: solid;
+  font-size: 16px;
+  background-color: var(--skyblue);
 }
 
 ul {
   list-style: none;
+  background-color: var(--skyblue);
 }
 
 p {
-  background-color: skyblue;
+  background-color: var(--skyblue);
+}
+
+a {
+  background-color: var(--skyblue);
+}
+
+.imageCards {
+  display: flex;
+  flex-direction: row;
 }
 
 .footer {
@@ -89,6 +126,10 @@ p {
   bottom: 0;
   width: 100%;
   text-align: center;
-  background-color: skyblue;
-  font-size: 14px;
+  background-color: var(--skyblue);
+  font-size: 15px;
 }
+
+@media screen and (min-width: 600px) {}
+@media screen and (min-width: 768px) {}
+@media screen and (min-width: 992px) {}
