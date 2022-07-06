@@ -46,6 +46,7 @@ h1 {
 
 #today {
   margin-left: 100px;
+  text-align: left;
 }
 
 #profile {
@@ -66,11 +67,13 @@ h1 {
   box-shadow: 2px 2px;
 }
 
+
 img {
   width: 500px;
   height: 300px;
   margin: 50px;
   border-style: solid;
+  border-radius: 10px;
   border-color: #000;
 
 }
@@ -80,8 +83,22 @@ img {
 }
 
 h2 {
+  text-align: center;
+  margin-bottom: 10px;
   background-color: var(--skyblue);
 }
+
+h3 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  background-color: var(--skyblue);
+}
+
+h4 {
+  background-color: var(--skyblue);
+}
+
 
 .firstsection {
   margin: 20px;
@@ -108,13 +125,39 @@ ul {
 }
 
 p {
+  text-align: center;
   margin-left: 20px;
   margin-right: 20px;
   background-color: var(--skyblue);
 }
 
-a {
+a { 
   background-color: var(--skyblue);
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  background-color: var(--skyblue);
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
 }
 
 .imageCards {
